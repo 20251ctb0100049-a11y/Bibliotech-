@@ -1,0 +1,38 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="vk2kOAvGN8Yxzbaw4hnq">
+    <mxGraphModel dx="691" dy="776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XOq9b0DdtWOhhFS8MZy9-2" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=300;height=30;" value="Bibliotech" vertex="1">
+          <mxGeometry height="370" width="300" x="200" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="XOq9b0DdtWOhhFS8MZy9-9" edge="1" parent="1" source="XOq9b0DdtWOhhFS8MZy9-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="XOq9b0DdtWOhhFS8MZy9-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XOq9b0DdtWOhhFS8MZy9-4" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Bibliotecario" vertex="1">
+          <mxGeometry height="60" width="30" x="70" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="XOq9b0DdtWOhhFS8MZy9-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Cadastrar leitor(RF01)" vertex="1">
+          <mxGeometry height="50" width="80" x="260" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="XOq9b0DdtWOhhFS8MZy9-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Emprestar livro (RF02)" vertex="1">
+          <mxGeometry height="50" width="80" x="260" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="XOq9b0DdtWOhhFS8MZy9-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Validar pendências do leitor" vertex="1">
+          <mxGeometry height="50" width="100" x="380" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="XOq9b0DdtWOhhFS8MZy9-8" edge="1" parent="1" source="XOq9b0DdtWOhhFS8MZy9-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.64;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" target="XOq9b0DdtWOhhFS8MZy9-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XOq9b0DdtWOhhFS8MZy9-11" edge="1" parent="1" source="XOq9b0DdtWOhhFS8MZy9-6" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="XOq9b0DdtWOhhFS8MZy9-7" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" x="0.177" y="39" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="320" y="430" as="sourcePoint" />
+            <mxPoint x="480" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
